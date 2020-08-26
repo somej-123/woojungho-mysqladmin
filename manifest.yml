@@ -1,0 +1,10 @@
+---
+applications:
+- name: woojungho-myslqadmin
+  memory: 512M
+  host: woojungho-myslqadmin
+  domain: paas-ta.org
+  services:
+  - woojungho-mysql-db
+  instances: 1
+  disk_quota: 512M
